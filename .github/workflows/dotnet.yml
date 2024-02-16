@@ -19,7 +19,7 @@ jobs:
     - name: Preparar .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: 4.7.2
+        dotnet-version: 4.7.x
     - name: Restaura dependencias
       run: dotnet restore
     - name: Build
